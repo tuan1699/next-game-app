@@ -1,0 +1,44 @@
+.game-list {
+  margin-bottom: 20px;
+}
+
+.game-item {
+  background-color: #32383e;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.name {
+  font-size: 19px;
+  color: #aaa;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.decr {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #7a8288;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.genre {
+  display: inline-block;
+  padding: 1px 2px;
+  background-color: #7a8288;
+  color: #272b30;
+  border-radius: 5px;
+  font-size: 11px;
+}
